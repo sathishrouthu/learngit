@@ -72,3 +72,5 @@ after we verified our changes are woriking fine we can merge these branches.
 2. to activate a branch :
     * git checkout branchname
 
+![image](https://user-images.githubusercontent.com/93826731/180905295-7db92b51-4f1c-4621-8254-3d21367e2ccd.png)
+
