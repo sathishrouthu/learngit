@@ -111,3 +111,18 @@ when we move head from most recent commit to some other commit then ae are in de
 any changes we made with detached head will not reflect to any other branches.
 
 
+### .gitignore
+```
+when we want to ignore some files in our repository to be considered
+we create a file named .gitignore
+and place file names which needs tio be ignored in tht file.
+
+let .gitignore has the following content
+
+idea            ==> ignores idea folder
+test.py         ==> ignores test.py file
+*.exe           ==> ignores all files with .exe  extension
+
+```
+### Pull request
+
