@@ -49,3 +49,26 @@ if we want to go back to log 2 and undo the actions 3 and 4 then we have to use 
 ```
 1. copy the commit id in log  to where we want to go back.
 2. git reset --hard "commit id"
+
+### Branches in Git
+```
+If we want change our code for some temporary session. we may not sure about what will happen after the changes
+in such case we dont want to chage the previous code. we just copy it somewhere and apply changes to it.
+instead we can do branching to achieve this.
+by default git provides master brabch.
+if we want to make changes without changing the original code then we create a new branch.
+
+lets say we are currently in master branch with a file app.py.
+
+now we created a branch testbranch.
+
+we can make changes to app.py in testbranch but these changes will not be visible in the master branch. 
+and any changes we apply in master branch will not be visible here.
+
+after we verified our changes are woriking fine we can merge these branches.
+```
+1. to create a new branch :
+    * git branch branchname
+2. to activate a branch :
+    * git checkout branchname
+
