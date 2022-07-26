@@ -25,7 +25,7 @@ then run the following command
 ```
 1. git log
 2. copy the log id
-3. git revert <log id>
+3. git revert "<log id>"
 4. bash editor will be opened, in command mode enter   :q to complete the action.
 
 above process will directly revert and commit the changes to local repo.
@@ -48,4 +48,4 @@ if we want to go back to log 2 and undo the actions 3 and 4 then we have to use 
 
 ```
 1. copy the commit id in log  to where we want to go back.
-2. git reset --hard <commit id>
+2. git reset --hard "<commit id>"
