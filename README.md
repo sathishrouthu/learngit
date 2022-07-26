@@ -1,10 +1,10 @@
 ### Git commands
 
-* git clone <repo URL>
+* git clone "repo URL"
     - this will clone a remote repo to local system
 * git status 
     - it will show the files in staging area and files not yet added to staging area. 
-* git add <filename>
+* git add "filename"
     - this will add the files to staging area in local system
 * git commit -m "commit message"
     - this will commit the changes to local repo
@@ -25,13 +25,13 @@ then run the following command
 ```
 1. git log
 2. copy the log id
-3. git revert "<log id>"
+3. git revert "log id"
 4. bash editor will be opened, in command mode enter   :q to complete the action.
 
 above process will directly revert and commit the changes to local repo.
 but if we want to first revert the files and then explicitly commit then try following command.
 
-* git revert -n <log id>
+* git revert -n "log id"
 
 * git commit -m "commit message"
 
@@ -48,4 +48,4 @@ if we want to go back to log 2 and undo the actions 3 and 4 then we have to use 
 
 ```
 1. copy the commit id in log  to where we want to go back.
-2. git reset --hard "<commit id>"
+2. git reset --hard "commit id"
