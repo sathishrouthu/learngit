@@ -105,5 +105,9 @@ $ git difftool HEAD~1 HEAD~2
 
 above command will show what are the  changes made between those commits
 
+Detached Head:
+
+when we move head from most recent commit to some other commit then ae are in detached head state.
+any changes we made with detached head will not reflect to any other branches.
 
 
