@@ -92,3 +92,18 @@ suppose we want to merge the testbranch code to master branch:
 ```
 
 
+### HEAD
+```
+HEAD points to most recent commit in most of the cases.
+$ git show HEAD    ==> This will show the most recent commit details
+$ git show HEAD~1  ==> most recent 2nd commit
+HEAD is used for short notation of Commit id.
+
+```
+
+$ git difftool HEAD~1 HEAD~2
+
+above command will show what are the  changes made between those commits
+
+
+
