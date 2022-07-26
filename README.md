@@ -71,4 +71,23 @@ after we verified our changes are woriking fine we can merge these branches.
     * git branch branchname
 2. to activate a branch :
     * git checkout branchname
+3. we can ceate and activate a branch in a sinlge command :
+    * git checkout -b dummy
+4. to delete a branch (should be done from master branch ):
+    * git branch -d dummy 
+
+![image](https://user-images.githubusercontent.com/93826731/180905295-7db92b51-4f1c-4621-8254-3d21367e2ccd.png)
+
+**Merging**
+to merge branches : 
+
+1. go to the branch to which you want to merge the branches.
+2. command  : git merge branchname
+
+```
+suppose we want to merge the testbranch code to master branch:
+-- activate master branch 
+-- git merge testbranch
+
+```
 
